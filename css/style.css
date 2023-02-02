@@ -589,13 +589,13 @@ header {
     left:50%;
     transform:translate(-50%, -50%) scale(1);
     width:408px;
-    height:576px;
     background: #FCFCFC;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 
     0px 1px 3px rgba(0, 0, 0, 0.12), 
      0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px;
 }
 
 .backdrop.is-hidden .modal{
@@ -652,7 +652,6 @@ header {
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
-    padding-top: 72px;
   }
   
   .form-field {
@@ -774,7 +773,7 @@ header {
     height: 56px;
     color: var(--primary-white-color);
     font-family: inherit;
-    margin: 24px 120px 24px;
+    margin: 24px 120px;
     display: block;
     border-radius: 4px;
     border: none;
