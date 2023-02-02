@@ -773,7 +773,11 @@ header {
     height: 56px;
     color: var(--primary-white-color);
     font-family: inherit;
-    margin: 24px 120px;
+    margin: auto;
+    margin-top: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 16px 60px;
     display: block;
     border-radius: 4px;
     border: none;
