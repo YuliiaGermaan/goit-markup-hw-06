@@ -755,30 +755,11 @@ header {
     color: var(--accent-color);
   }
   
-  .checkbox-label::before {
-    content: " ";
-    display: block;
-    width: 16px;
-    height: 16px;
-    border: 1px solid var(--title-text-color);
-    border-radius: 3px;
-  
-    margin-right: 8px;
-  }
-  
-  .modal-checkbox:checked + .checkbox-label:before {
-    border: none;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    border-color: var(--an-accent-color);
-    background-color: var(--an-accent-color);
-  }
 
 .checkbox-label .icon-vector {
     display: flex;
     align-items: center;
-    justify-self: center;
+    justify-content: center;
     margin-right: 8px;
     width: 16px;
     height: 16px;
